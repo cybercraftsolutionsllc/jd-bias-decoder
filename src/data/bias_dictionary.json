@@ -1,0 +1,142 @@
+[
+  {
+    "term": "ninja",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "developer / engineer",
+    "explanation": "Words like 'ninja', 'guru', or 'rockstar' tend to appeal more to male applicants and discourage women from applying."
+  },
+  {
+    "term": "rockstar",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "highly motivated individual",
+    "explanation": "Aggressive, competitive terms often alienate female candidates. Focus on the actual skills required."
+  },
+  {
+    "term": "guru",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "expert / specialist",
+    "explanation": "This term is culturally masculine-coded and can discourage diversity."
+  },
+  {
+    "term": "guys",
+    "category": "Gender Bias",
+    "severity": "low",
+    "suggestion": "team / people / everyone",
+    "explanation": "'Guys' is not gender-neutral, even if often used that way. It defaults to the male noun."
+  },
+  {
+    "term": "manpower",
+    "category": "Gender Bias",
+    "severity": "high",
+    "suggestion": "staff / workforce / personnel",
+    "explanation": "Explicitly gendered language. Use neutral terms to include all genders."
+  },
+  {
+    "term": "chairman",
+    "category": "Gender Bias",
+    "severity": "high",
+    "suggestion": "chairperson / chair",
+    "explanation": "Assumes the leadership role is held by a man."
+  },
+  {
+    "term": "he/she",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "they / the candidate",
+    "explanation": "Binary pronouns exclude non-binary or gender-fluid individuals. 'They' is the standard neutral pronoun."
+  },
+  {
+    "term": "waitress",
+    "category": "Gender Bias",
+    "severity": "high",
+    "suggestion": "server",
+    "explanation": "Gender-specific job titles are outdated and exclusionary."
+  },
+  {
+    "term": "digital native",
+    "category": "Ageism",
+    "severity": "high",
+    "suggestion": "tech-savvy",
+    "explanation": "Implies the candidate must be young (grew up with technology), excluding older, experienced workers who learned these skills later."
+  },
+  {
+    "term": "recent graduate",
+    "category": "Ageism",
+    "severity": "high",
+    "suggestion": "entry-level",
+    "explanation": "Unless it's a university recruitment program, requiring a 'recent' degree discriminates against older workers changing careers."
+  },
+  {
+    "term": "young",
+    "category": "Ageism",
+    "severity": "critical",
+    "suggestion": "enthusiastic / energetic",
+    "explanation": "Directly specifying age is illegal in many jurisdictions and highly discriminatory."
+  },
+  {
+    "term": "energetic",
+    "category": "Ageism",
+    "severity": "low",
+    "suggestion": "motivated",
+    "explanation": "Often a code word for 'young'. Focus on the output or motivation, not physical energy levels."
+  },
+  {
+    "term": "culture fit",
+    "category": "Bias",
+    "severity": "medium",
+    "suggestion": "values alignment",
+    "explanation": "'Culture fit' is often used to hire people who look/act like the existing team, reducing diversity."
+  },
+  {
+    "term": "blind spot",
+    "category": "Ableism",
+    "severity": "medium",
+    "suggestion": "unaware area / weakness",
+    "explanation": "Uses a disability as a metaphor for ignorance."
+  },
+  {
+    "term": "deaf ears",
+    "category": "Ableism",
+    "severity": "medium",
+    "suggestion": "ignored / unheeded",
+    "explanation": "Uses a disability as a metaphor for stubborness."
+  },
+  {
+    "term": "sanity check",
+    "category": "Ableism",
+    "severity": "medium",
+    "suggestion": "confidence check / verification",
+    "explanation": "Trivializes mental health conditions."
+  },
+  {
+    "term": "crippled",
+    "category": "Ableism",
+    "severity": "critical",
+    "suggestion": "slowed down / halted",
+    "explanation": "A slur against people with physical disabilities."
+  },
+  {
+    "term": "dummy",
+    "category": "Ableism",
+    "severity": "low",
+    "suggestion": "placeholder / sample",
+    "explanation": "Historically derived from the inability to speak."
+  },
+  {
+    "term": "handicap",
+    "category": "Ableism",
+    "severity": "high",
+    "suggestion": "obstacle / barrier",
+    "explanation": "Considered outdated and offensive by many in the disability community."
+  },
+  {
+    "term": "tribe",
+    "category": "Cultural Bias",
+    "severity": "medium",
+    "suggestion": "team / community",
+    "explanation": "Appropriates indigenous terminology and can imply an exclusionary 'us vs them' culture."
+  }
+]
