@@ -21,6 +21,20 @@
     "explanation": "This term is culturally masculine-coded and can discourage diversity."
   },
   {
+    "term": "hacker",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "engineer / developer",
+    "explanation": "Culturally associated with masculine stereotypes in tech."
+  },
+  {
+    "term": "superhero",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "problem solver",
+    "explanation": "Often implies an unrealistic workload and is culturally masculine-coded."
+  },
+  {
     "term": "guys",
     "category": "Gender Bias",
     "severity": "low",
@@ -42,11 +56,11 @@
     "explanation": "Assumes the leadership role is held by a man."
   },
   {
-    "term": "he/she",
+    "term": "mankind",
     "category": "Gender Bias",
-    "severity": "medium",
-    "suggestion": "they / the candidate",
-    "explanation": "Binary pronouns exclude non-binary or gender-fluid individuals. 'They' is the standard neutral pronoun."
+    "severity": "high",
+    "suggestion": "humanity / people",
+    "explanation": "Explicitly gendered. 'Humanity' is inclusive."
   },
   {
     "term": "waitress",
@@ -54,6 +68,20 @@
     "severity": "high",
     "suggestion": "server",
     "explanation": "Gender-specific job titles are outdated and exclusionary."
+  },
+  {
+    "term": "stewardess",
+    "category": "Gender Bias",
+    "severity": "high",
+    "suggestion": "flight attendant",
+    "explanation": "Gender-specific job titles are outdated and exclusionary."
+  },
+  {
+    "term": "maid",
+    "category": "Gender Bias",
+    "severity": "high",
+    "suggestion": "housekeeper / cleaner",
+    "explanation": "Gender-specific job titles are outdated."
   },
   {
     "term": "digital native",
@@ -84,6 +112,20 @@
     "explanation": "Often a code word for 'young'. Focus on the output or motivation, not physical energy levels."
   },
   {
+    "term": "fresh",
+    "category": "Ageism",
+    "severity": "medium",
+    "suggestion": "new / innovative",
+    "explanation": "Often implies 'young' or 'inexperienced' (cheap labor)."
+  },
+  {
+    "term": "mature",
+    "category": "Ageism",
+    "severity": "medium",
+    "suggestion": "experienced",
+    "explanation": "Can be a dog whistle for 'not young', but also used to discourage younger applicants. 'Experienced' is more precise."
+  },
+  {
     "term": "culture fit",
     "category": "Bias",
     "severity": "medium",
@@ -112,6 +154,20 @@
     "explanation": "Trivializes mental health conditions."
   },
   {
+    "term": "crazy",
+    "category": "Ableism",
+    "severity": "low",
+    "suggestion": "wild / intense",
+    "explanation": "Stigmatizes mental health."
+  },
+  {
+    "term": "insane",
+    "category": "Ableism",
+    "severity": "low",
+    "suggestion": "intense / extreme",
+    "explanation": "Stigmatizes mental health."
+  },
+  {
     "term": "crippled",
     "category": "Ableism",
     "severity": "critical",
@@ -133,10 +189,871 @@
     "explanation": "Considered outdated and offensive by many in the disability community."
   },
   {
+    "term": "stand up meeting",
+    "category": "Ableism",
+    "severity": "low",
+    "suggestion": "daily sync / quick sync",
+    "explanation": "Implicitly assumes physical ability to stand. 'Sync' focuses on the action, not the posture."
+  },
+  {
+    "term": "walk the talk",
+    "category": "Ableism",
+    "severity": "low",
+    "suggestion": "practice what you preach",
+    "explanation": "Uses walking as a metaphor for ability/integrity."
+  },
+  {
     "term": "tribe",
     "category": "Cultural Bias",
     "severity": "medium",
     "suggestion": "team / community",
     "explanation": "Appropriates indigenous terminology and can imply an exclusionary 'us vs them' culture."
+  },
+  {
+    "term": "pow wow",
+    "category": "Cultural Bias",
+    "severity": "high",
+    "suggestion": "meeting / brief",
+    "explanation": "Appropriates indigenous ceremonial terminology."
+  },
+  {
+    "term": "spirit animal",
+    "category": "Cultural Bias",
+    "severity": "medium",
+    "suggestion": "favorite icon / affinity",
+    "explanation": "Appropriates indigenous spiritual concepts."
+  },
+  {
+    "term": "master",
+    "category": "Racial Bias",
+    "severity": "high",
+    "suggestion": "primary / main / lead",
+    "explanation": "Evokes slavery, especially when paired with 'slave' (in tech contexts). Use 'Primary/Replica' or 'Main'."
+  },
+  {
+    "term": "slave",
+    "category": "Racial Bias",
+    "severity": "critical",
+    "suggestion": "replica / secondary / worker",
+    "explanation": "Evokes slavery. Highly offensive."
+  },
+  {
+    "term": "whitelist",
+    "category": "Racial Bias",
+    "severity": "medium",
+    "suggestion": "allowlist",
+    "explanation": "Associates 'white' with good/allowed and 'black' with bad/forbidden."
+  },
+  {
+    "term": "blacklist",
+    "category": "Racial Bias",
+    "severity": "medium",
+    "suggestion": "blocklist / denylist",
+    "explanation": "Associates 'black' with bad/forbidden."
+  },
+  {
+    "term": "brown bag",
+    "category": "Racial Bias",
+    "severity": "low",
+    "suggestion": "lunch and learn",
+    "explanation": "Historically associated with the 'brown paper bag test' for skin tone discrimination."
+  },
+  {
+    "term": "cakewalk",
+    "category": "Racial Bias",
+    "severity": "low",
+    "suggestion": "easy",
+    "explanation": "Originated from a dance performed by enslaved people on plantations."
+  },
+  {
+    "term": "ghetto",
+    "category": "Racial Bias",
+    "severity": "high",
+    "suggestion": "messy / unorganized",
+    "explanation": "Racially charged term often used disparagingly."
+  },
+  {
+    "term": "grandfathered",
+    "category": "Racial Bias",
+    "severity": "medium",
+    "suggestion": "legacy / exempted",
+    "explanation": "Origins in voting rights laws used to disenfranchise Black voters (Grandfather Clause)."
+  },
+  {
+    "term": "native English speaker",
+    "category": "Racial Bias",
+    "severity": "high",
+    "suggestion": "fluent in English",
+    "explanation": "Discriminates against immigrants and non-native speakers who are fluent. Focus on proficiency, not origin."
+  },
+  {
+    "term": "work hard play hard",
+    "category": "Inclusion / Burnout",
+    "severity": "medium",
+    "suggestion": "dedicated team",
+    "explanation": "Often signals a culture of overwork and drinking, alienating parents, caregivers, and non-drinkers."
+  },
+  {
+    "term": "whatever it takes",
+    "category": "Inclusion / Burnout",
+    "severity": "medium",
+    "suggestion": "committed",
+    "explanation": "Implies lack of work-life balance and expectation of unpaid overtime."
+  },
+  {
+    "term": "24/7",
+    "category": "Inclusion / Burnout",
+    "severity": "medium",
+    "suggestion": "highly available",
+    "explanation": "Implies no downtime or boundaries."
+  },
+  {
+    "term": "hustle",
+    "category": "Inclusion / Burnout",
+    "severity": "medium",
+    "suggestion": "work diligently",
+    "explanation": "Signals burnout culture."
+  },
+  {
+    "term": "assertive",
+    "category": "Gender Bias",
+    "severity": "low",
+    "suggestion": "confident",
+    "explanation": "Often viewed positively in men but negatively in women."
+  },
+  {
+    "term": "aggressive",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "driven",
+    "explanation": "Usually coded masculine; can signal a hostile work environment."
+  },
+  {
+    "term": "dominant",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "leading",
+    "explanation": "Hyper-masculine language."
+  },
+  {
+    "term": "compete",
+    "category": "Gender Bias",
+    "severity": "low",
+    "suggestion": "collaborate / achieve",
+    "explanation": "Overemphasis on competition can alienate candidates who value collaboration (often women)."
+  },
+  {
+    "term": "force",
+    "category": "Gender Bias",
+    "severity": "low",
+    "suggestion": "strength",
+    "explanation": "Masculine-coded violence metaphor."
+  },
+  {
+    "term": "kill",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "excel / succeed",
+    "explanation": "Violent metaphor."
+  },
+  {
+    "term": "crush",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "exceed",
+    "explanation": "Violent metaphor."
+  },
+  {
+    "term": "salesman",
+    "category": "Gender Bias",
+    "severity": "high",
+    "suggestion": "salesperson / sales representative",
+    "explanation": "Gender-specific."
+  },
+  {
+    "term": "foreman",
+    "category": "Gender Bias",
+    "severity": "high",
+    "suggestion": "supervisor / lead",
+    "explanation": "Gender-specific."
+  },
+  {
+    "term": "cameraman",
+    "category": "Gender Bias",
+    "severity": "high",
+    "suggestion": "camera operator",
+    "explanation": "Gender-specific."
+  },
+  {
+    "term": "middleman",
+    "category": "Gender Bias",
+    "severity": "high",
+    "suggestion": "intermediary",
+    "explanation": "Gender-specific."
+  },
+  {
+    "term": "policeman",
+    "category": "Gender Bias",
+    "severity": "high",
+    "suggestion": "police officer",
+    "explanation": "Gender-specific."
+  },
+  {
+    "term": "fireman",
+    "category": "Gender Bias",
+    "severity": "high",
+    "suggestion": "firefighter",
+    "explanation": "Gender-specific."
+  },
+  {
+    "term": "postman",
+    "category": "Gender Bias",
+    "severity": "high",
+    "suggestion": "postal worker",
+    "explanation": "Gender-specific."
+  },
+  {
+    "term": "brotherhood",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "community / camaraderie",
+    "explanation": "Excludes women/non-binary."
+  },
+  {
+    "term": "fraternity",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "community",
+    "explanation": "Excludes women/non-binary."
+  },
+  {
+    "term": "man-hours",
+    "category": "Gender Bias",
+    "severity": "high",
+    "suggestion": "person-hours / hours",
+    "explanation": "Gender-specific measurement."
+  },
+  {
+    "term": "strawman",
+    "category": "Gender Bias",
+    "severity": "low",
+    "suggestion": "straw figure",
+    "explanation": "Gendered metaphor."
+  },
+  {
+    "term": "gentleman's agreement",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "informal agreement / handshake deal",
+    "explanation": "Gendered."
+  },
+  {
+    "term": "ladies",
+    "category": "Gender Bias",
+    "severity": "low",
+    "suggestion": "everyone / team",
+    "explanation": "Can be patronizing in professional contexts, and excludes non-binary people."
+  },
+  {
+    "term": "girls",
+    "category": "Gender Bias",
+    "severity": "high",
+    "suggestion": "women / team",
+    "explanation": "Infantilizing when referring to adult women."
+  },
+  {
+    "term": "mom",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "parent",
+    "explanation": "Assumes the primary caregiver is female."
+  },
+  {
+    "term": "dad",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "parent",
+    "explanation": "Assumes gender roles."
+  },
+  {
+    "term": "bound to a wheelchair",
+    "category": "Ableism",
+    "severity": "high",
+    "suggestion": "wheelchair user",
+    "explanation": "Wheelchairs represent freedom/mobility, not binding."
+  },
+  {
+    "term": "confined to a wheelchair",
+    "category": "Ableism",
+    "severity": "high",
+    "suggestion": "wheelchair user",
+    "explanation": "Negative framing of mobility aids."
+  },
+  {
+    "term": "suffers from",
+    "category": "Ableism",
+    "severity": "medium",
+    "suggestion": "has / experiences",
+    "explanation": "Assumes a disability is a tragedy or suffering."
+  },
+  {
+    "term": "victim of",
+    "category": "Ableism",
+    "severity": "medium",
+    "suggestion": "person with",
+    "explanation": "Disempowering language."
+  },
+  {
+    "term": "special needs",
+    "category": "Ableism",
+    "severity": "medium",
+    "suggestion": "disability / accommodations",
+    "explanation": "Euphemism often disliked by the disability community. Be specific."
+  },
+  {
+    "term": "differently abled",
+    "category": "Ableism",
+    "severity": "medium",
+    "suggestion": "disabled",
+    "explanation": "Euphemism. 'Disabled' is generally preferred by the community."
+  },
+  {
+    "term": "tone deaf",
+    "category": "Ableism",
+    "severity": "low",
+    "suggestion": "insensitive / out of touch",
+    "explanation": "Uses hearing impairment as a metaphor for ignorance."
+  },
+  {
+    "term": "OCD",
+    "category": "Ableism",
+    "severity": "medium",
+    "suggestion": "detail-oriented / meticulous",
+    "explanation": "Using a serious disorder as an adjective for being tidy is offensive."
+  },
+  {
+    "term": "bipolar",
+    "category": "Ableism",
+    "severity": "medium",
+    "suggestion": "unpredictable / changing",
+    "explanation": "Trivializes a mental health condition."
+  },
+  {
+    "term": "retarded",
+    "category": "Ableism",
+    "severity": "critical",
+    "suggestion": "slowed / delayed",
+    "explanation": "A slur."
+  },
+  {
+    "term": "lame",
+    "category": "Ableism",
+    "severity": "low",
+    "suggestion": "uncool / bad",
+    "explanation": "Originally meant unable to walk; now a generic negative."
+  },
+  {
+    "term": "spaz",
+    "category": "Ableism",
+    "severity": "high",
+    "suggestion": "clumsy / energetic",
+    "explanation": "Derived from 'spastic', a slur against people with cerebral palsy."
+  }
+  {
+    "term": "draftsman",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "drafter",
+    "explanation": "Gender-specific job title."
+  },
+  {
+    "term": "handyman",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "maintenance worker",
+    "explanation": "Gender-specific job title."
+  },
+  {
+    "term": "journeyman",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "journey-level / skilled worker",
+    "explanation": "Gender-specific job title."
+  },
+  {
+    "term": "layman",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "layperson / non-expert",
+    "explanation": "Gender-specific term."
+  },
+  {
+    "term": "ombudsman",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "ombudsperson / ombuds",
+    "explanation": "Gender-specific job title."
+  },
+  {
+    "term": "spokesman",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "spokesperson",
+    "explanation": "Gender-specific job title."
+  },
+  {
+    "term": "statesman",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "diplomat / leader",
+    "explanation": "Gender-specific term."
+  },
+  {
+    "term": "workman",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "worker",
+    "explanation": "Gender-specific term."
+  },
+  {
+    "term": "bossy",
+    "category": "Gender Bias",
+    "severity": "high",
+    "suggestion": "assertive / lead",
+    "explanation": "Frequently used to demean assertive women while men are called 'leaders'."
+  },
+  {
+    "term": "feisty",
+    "category": "Gender Bias",
+    "severity": "high",
+    "suggestion": "passionate / spirited",
+    "explanation": "Often applied condescendingly to women."
+  },
+  {
+    "term": "bubbly",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "friendly / outgoing",
+    "explanation": "Infantilizing term typically directed at women."
+  },
+  {
+    "term": "emotional",
+    "category": "Gender Bias",
+    "severity": "low",
+    "suggestion": "passionate / expressive",
+    "explanation": "Can be used to dismiss women's concerns or leadership style."
+  },
+  {
+    "term": "hysterical",
+    "category": "Gender Bias",
+    "severity": "high",
+    "suggestion": "overwhelmed / upset",
+    "explanation": "Historically rooted in misogyny (hysteria) to invalidate women."
+  },
+  {
+    "term": "high maintenance",
+    "category": "Gender Bias",
+    "severity": "high",
+    "suggestion": "exacting / detailed",
+    "explanation": "Derogatory term often applied to women who assert their needs."
+  },
+  {
+    "term": "abrasive",
+    "category": "Gender Bias",
+    "severity": "medium",
+    "suggestion": "direct / firm",
+    "explanation": "Often used to penalize women for behavior accepted in men."
+  },
+  {
+    "term": "shrill",
+    "category": "Gender Bias",
+    "severity": "high",
+    "suggestion": "loud / assertive",
+    "explanation": "Critique of voice pitch almost exclusively used against women."
+  },
+  {
+    "term": "nurturing",
+    "category": "Gender Bias",
+    "severity": "low",
+    "suggestion": "supportive / mentoring",
+    "explanation": "Reinforces traditional female gender roles in the workplace."
+  },
+  {
+    "term": "career woman",
+    "category": "Gender Bias",
+    "severity": "high",
+    "suggestion": "professional",
+    "explanation": "Implies a woman with a career is an anomaly or neglecting other duties."
+  },
+  {
+    "term": "dinosaur",
+    "category": "Ageism",
+    "severity": "high",
+    "suggestion": "traditional / established",
+    "explanation": "Derogatory term for older workers."
+  },
+  {
+    "term": "fossil",
+    "category": "Ageism",
+    "severity": "high",
+    "suggestion": "traditional / legacy",
+    "explanation": "Derogatory term for older workers."
+  },
+  {
+    "term": "dead wood",
+    "category": "Ageism",
+    "severity": "high",
+    "suggestion": "underperforming",
+    "explanation": "Often implies older employees are useless."
+  },
+  {
+    "term": "digital immigrant",
+    "category": "Ageism",
+    "severity": "medium",
+    "suggestion": "non-digital native",
+    "explanation": "Highlights age differences in tech adoption unnecessarily."
+  },
+  {
+    "term": "overqualified",
+    "category": "Ageism",
+    "severity": "medium",
+    "suggestion": "highly experienced",
+    "explanation": "Often used to reject older candidates."
+  },
+  {
+    "term": "set in ways",
+    "category": "Ageism",
+    "severity": "medium",
+    "suggestion": "resistant to change",
+    "explanation": "Stereotype against older workers."
+  },
+  {
+    "term": "millennial",
+    "category": "Ageism",
+    "severity": "low",
+    "suggestion": "younger generation",
+    "explanation": "Generational labels can carry stereotypes."
+  },
+  {
+    "term": "boomer",
+    "category": "Ageism",
+    "severity": "low",
+    "suggestion": "older generation",
+    "explanation": "Generational labels can carry stereotypes."
+  },
+  {
+    "term": "blind leading the blind",
+    "category": "Ableism",
+    "severity": "medium",
+    "suggestion": "uninformed leadership",
+    "explanation": "Uses blindness as a metaphor for ignorance."
+  },
+  {
+    "term": "turn a blind eye",
+    "category": "Ableism",
+    "severity": "low",
+    "suggestion": "ignore",
+    "explanation": "Uses blindness as a metaphor for negligence."
+  },
+  {
+    "term": "dumb",
+    "category": "Ableism",
+    "severity": "high",
+    "suggestion": "unwise / ill-advised",
+    "explanation": "Originally meant 'unable to speak'; now an ableist slur."
+  },
+  {
+    "term": "idiot",
+    "category": "Ableism",
+    "severity": "high",
+    "suggestion": "unwise person",
+    "explanation": "Historically a medical classification for intellectual disability."
+  },
+  {
+    "term": "moron",
+    "category": "Ableism",
+    "severity": "high",
+    "suggestion": "unwise person",
+    "explanation": "Historically a medical classification for intellectual disability."
+  },
+  {
+    "term": "psycho",
+    "category": "Ableism",
+    "severity": "high",
+    "suggestion": "erratic / dangerous",
+    "explanation": "Stigmatizes mental illness."
+  },
+  {
+    "term": "schizo",
+    "category": "Ableism",
+    "severity": "high",
+    "suggestion": "erratic / inconsistent",
+    "explanation": "Slur derived from schizophrenia."
+  },
+  {
+    "term": "maniac",
+    "category": "Ableism",
+    "severity": "high",
+    "suggestion": "intense person",
+    "explanation": "Stigmatizes mental illness."
+  },
+  {
+    "term": "invalid",
+    "category": "Ableism",
+    "severity": "high",
+    "suggestion": "person with disability",
+    "explanation": "Implies a person is 'not valid'."
+  },
+  {
+    "term": "vegetable",
+    "category": "Ableism",
+    "severity": "critical",
+    "suggestion": "unresponsive",
+    "explanation": "Dehumanizing slur for someone with severe cognitive or physical impairment."
+  },
+  {
+    "term": "midget",
+    "category": "Ableism",
+    "severity": "critical",
+    "suggestion": "little person / short",
+    "explanation": "Offensive slur."
+  },
+  {
+    "term": "dwarf",
+    "category": "Ableism",
+    "severity": "medium",
+    "suggestion": "little person",
+    "explanation": "Preferred term is 'Little Person' in many contexts."
+  },
+  {
+    "term": "defect",
+    "category": "Ableism",
+    "severity": "medium",
+    "suggestion": "bug / issue",
+    "explanation": "Can imply people with disabilities are 'defective'."
+  },
+  {
+    "term": "normal",
+    "category": "Ableism",
+    "severity": "medium",
+    "suggestion": "typical / standard",
+    "explanation": "Implies people with disabilities are 'abnormal'."
+  },
+  {
+    "term": "able-bodied",
+    "category": "Ableism",
+    "severity": "medium",
+    "suggestion": "non-disabled",
+    "explanation": "Implies the 'body' is the only measure of ability."
+  },
+  {
+    "term": "peanut gallery",
+    "category": "Racial Bias",
+    "severity": "medium",
+    "suggestion": "audience / observers",
+    "explanation": "Refers to the segregated section of theaters for Black people."
+  },
+  {
+    "term": "sold down the river",
+    "category": "Racial Bias",
+    "severity": "high",
+    "suggestion": "betrayed",
+    "explanation": "Refers to selling enslaved people to harsher plantations in the Deep South."
+  },
+  {
+    "term": "gypped",
+    "category": "Racial Bias",
+    "severity": "high",
+    "suggestion": "cheated",
+    "explanation": "Derived from 'Gypsy' (Roma), implying they are thieves."
+  },
+  {
+    "term": "paddy wagon",
+    "category": "Racial Bias",
+    "severity": "high",
+    "suggestion": "police van",
+    "explanation": "Derogatory term for Irish people."
+  },
+  {
+    "term": "uppity",
+    "category": "Racial Bias",
+    "severity": "critical",
+    "suggestion": "arrogant / assertive",
+    "explanation": "Historically used to describe Black people who didn't 'know their place'."
+  },
+  {
+    "term": "thug",
+    "category": "Racial Bias",
+    "severity": "critical",
+    "suggestion": "criminal / violent",
+    "explanation": "Racially coded language often directed at Black men."
+  },
+  {
+    "term": "exotic",
+    "category": "Racial Bias",
+    "severity": "high",
+    "suggestion": "foreign / unique",
+    "explanation": "Fetishizes and others people of color."
+  },
+  {
+    "term": "urban",
+    "category": "Racial Bias",
+    "severity": "medium",
+    "suggestion": "city / metropolitan",
+    "explanation": "Often a code word for Black or low-income neighborhoods."
+  },
+  {
+    "term": "inner city",
+    "category": "Racial Bias",
+    "severity": "medium",
+    "suggestion": "central city",
+    "explanation": "Often a code word for low-income minority neighborhoods."
+  },
+  {
+    "term": "articulate",
+    "category": "Racial Bias",
+    "severity": "low",
+    "suggestion": "well-spoken",
+    "explanation": "Can be a microaggression expressing surprise that a minority person speaks well."
+  },
+  {
+    "term": "you people",
+    "category": "Racial Bias",
+    "severity": "high",
+    "suggestion": "you / your group",
+    "explanation": "Othering language often used in racist generalizations."
+  },
+  {
+    "term": "illegal alien",
+    "category": "Racial Bias",
+    "severity": "high",
+    "suggestion": "undocumented immigrant",
+    "explanation": "Dehumanizing; people cannot be 'illegal'."
+  },
+  {
+    "term": "eskimo",
+    "category": "Racial Bias",
+    "severity": "high",
+    "suggestion": "Inuit / Yupik",
+    "explanation": "Colonial term considered offensive by many Indigenous Arctic peoples."
+  },
+  {
+    "term": "oriental",
+    "category": "Racial Bias",
+    "severity": "high",
+    "suggestion": "Asian",
+    "explanation": "Outdated, colonial, and offensive term for people."
+  },
+  {
+    "term": "mulatto",
+    "category": "Racial Bias",
+    "severity": "critical",
+    "suggestion": "mixed race / multiracial",
+    "explanation": "Offensive historical term for mixed-race people."
+  },
+  {
+    "term": "redskin",
+    "category": "Racial Bias",
+    "severity": "critical",
+    "suggestion": "Native American / Indigenous",
+    "explanation": "Highly offensive racial slur."
+  },
+  {
+    "term": "sexual preference",
+    "category": "LGBTQ Bias",
+    "severity": "high",
+    "suggestion": "sexual orientation",
+    "explanation": "Implies sexuality is a choice rather than an identity."
+  },
+  {
+    "term": "lifestyle choice",
+    "category": "LGBTQ Bias",
+    "severity": "high",
+    "suggestion": "identity / orientation",
+    "explanation": "Implies LGBTQ+ identity is a frivolous choice."
+  },
+  {
+    "term": "tranny",
+    "category": "LGBTQ Bias",
+    "severity": "critical",
+    "suggestion": "transgender person",
+    "explanation": "Violent slur against transgender people."
+  },
+  {
+    "term": "she-male",
+    "category": "LGBTQ Bias",
+    "severity": "critical",
+    "suggestion": "transgender woman",
+    "explanation": "Dehumanizing slur often used in pornographic contexts."
+  },
+  {
+    "term": "hermaphrodite",
+    "category": "LGBTQ Bias",
+    "severity": "critical",
+    "suggestion": "intersex person",
+    "explanation": "Outdated and stigmatizing medical term."
+  },
+  {
+    "term": "sex change",
+    "category": "LGBTQ Bias",
+    "severity": "high",
+    "suggestion": "gender transition / affirmation",
+    "explanation": "Outdated term; focuses on surgery rather than identity."
+  },
+  {
+    "term": "pedigree",
+    "category": "Elitism",
+    "severity": "medium",
+    "suggestion": "education / background",
+    "explanation": "Implies breeding or class superiority."
+  },
+  {
+    "term": "blue blood",
+    "category": "Elitism",
+    "severity": "low",
+    "suggestion": "aristocratic / wealthy",
+    "explanation": "Classist term."
+  },
+  {
+    "term": "trailer trash",
+    "category": "Classism",
+    "severity": "critical",
+    "suggestion": "low income / rural",
+    "explanation": "Classist slur."
+  },
+  {
+    "term": "redneck",
+    "category": "Classism",
+    "severity": "high",
+    "suggestion": "rural person",
+    "explanation": "Classist slur."
+  },
+  {
+    "term": "first world problem",
+    "category": "Classism",
+    "severity": "low",
+    "suggestion": "minor inconvenience",
+    "explanation": "Dismissive of problems."
+  },
+  {
+    "term": "third world",
+    "category": "Classism",
+    "severity": "medium",
+    "suggestion": "developing nation / Global South",
+    "explanation": "Outdated Cold War terminology."
+  },
+  {
+    "term": "unlimited vacation",
+    "category": "Hustle Culture",
+    "severity": "low",
+    "suggestion": "flexible time off",
+    "explanation": "Often a trap where employees take *less* time off. Be clear about minimums."
+  },
+  {
+    "term": "thick skin",
+    "category": "Hustle Culture",
+    "severity": "medium",
+    "suggestion": "resilience",
+    "explanation": "Implies a toxic or abusive environment."
   }
 ]
